@@ -1,0 +1,283 @@
+body{
+    background-color: #222222;
+    color: #fff;
+}
+.box-l{
+    background-color: #fff;
+    color: #000;
+}
+.more{
+    background-color:#333333;
+    width: 100%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    background: #333;
+    
+}
+.slid{
+   border: 1px solid #fff;
+   width: 170.333px;
+   margin-right: 5px;
+   background-color: #333333;
+}
+.box-color-1{
+    border-color: rgb(82, 175, 98);
+    color: rgb(82, 175, 98);
+ }
+ .box-color-2{
+    color: rgb(233, 85, 117);
+    border-color:rgb(233, 85, 117); ;
+ }
+ .box-color-3{
+    color: rgb(228, 165, 47);
+    border-color:rgb(228, 165, 47);
+ }
+ .box-color-4{
+    color: rgb(159, 226, 191);
+    border-color:rgb(159, 226, 191);
+ }
+ .box-color-5{
+    color: rgb(144, 121, 203);
+    border-color:rgb(144, 121, 203);
+ }
+ .box-color-6{
+    color: rgb(206, 118, 51);
+    border-color:rgb(206, 118, 51);
+ }
+.slid img{
+    margin-left: -12px;
+}
+.radius-img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.box-img-game{
+    position: relative;
+    width: 172px;
+    height: 113px;
+    display: inline-block;
+}
+.box-img-game img{
+    width: 172px;
+    height: 113px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: all linear 0.7s;
+}
+
+.box-img-game:hover img{
+    opacity: 0;
+}
+.box-img-game:hover img.hover-img{
+    opacity: 1;
+}
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 172px;
+    height: 113px;
+}
+.box-img{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img2{
+    background: url(../imges/game-bg-2.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img3{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img4{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img5{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img6{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img7{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img8{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img9{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img10{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img11{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.box-img12{
+    background: url(../imges/game-bg.PNG) no-repeat;
+    width: 172px;
+    height: 113px;
+}
+/*
+.hover-img img:hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box:hover img{
+    opacity: 0;
+}
+*/
+.box-img:hover{
+    background: url('../imges/game-bg-chang.PNG') no-repeat;
+    width: 172px;
+    height: 113px;
+}
+.txt-box{
+    width: 172px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background: #333!important;
+    background-size: 100% 100%!important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.w-15{
+    width: 180px;
+}
+.w-15{
+    width: 180px;
+}
+.bg-color{
+    background-color: #333333;
+}
+.hover-img img:hover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box:hover img{
+    opacity: 0;
+}
+
+.box-tital{
+    padding-right: 62px;
+    padding-left: 63px;
+    padding-bottom: 10px;
+    top: 120px;
+
+}
+.text-color{
+    color: #666666;
+}
+.btn{
+    font-size: 15px !important;
+    box-shadow: 1px 5px 4px -1px #000;
+}
+
+.btn-color{
+    color: #fff;
+}
+.pane-content{
+    width: 100%;
+    background-color: #000;
+    border: 1px solid #ADADAD;
+    border-radius: 7px;
+}
+.gamepass{
+    background: #333 url(../imges/gamepass-bg.png) center 8%/110% no-repeat;
+}
+.color-text-com{
+    color: #E43D30;
+}
+.color-text-gamepass{
+    color: #AEAEAE;
+}
+.border-buttom{
+    border-bottom: 2px solid red;
+}
+.comments{
+    background-color: #3A3A3A;
+}
+.comments .titla{
+    margin-top: 30px;
+    margin-left: 70px!important;
+}
+.comments .name{
+    margin-top: -8px!important;
+    margin-left: 70px!important;
+}
+ .comments2{
+    background-color: #5C5C5C;
+    width: 90%;
+    margin-left: 60px;
+}
+.bg-footer{
+    background-color: #171717;
+}
+.text-color-grean{
+    color: #00be0c;
+}
+.text-color-whit{
+    color: #fff;
+}
+.border-color-footer{
+    border-color: #00be0c!important;
+} 
+.border-radius{
+    border-radius: 7px;
+}
+.bg-color-box
+{
+    background-color: #333333;
+}
+.text-color-footer{
+    color: #AEAEAE;
+}
+.nav a:hover{
+    text-decoration:underline;
+    color: #fff;
+}
+.box-hover div:hover{
+    border: 1px solid #d5211b!important;
+}
+.cont{
+    padding-left: 20% !important;
+    padding-right: 20% !important;
+}
+@media only screen and (max-width: 360px) {
+    .cont{
+       display:block;
+    }
+   }
+  
+  
+   @media only screen and (min-width: 660px) {
+    .cont{
+      display: inline-block;
+    }
+   }
+
